@@ -12,11 +12,11 @@ try:
 except ImportError as e:
     dynamic_requires = ['pycryptodome==3.4.11']
 
-version = 0.5
+version = '0.5.1'
 
 setup(
     name='broadlink',
-    version=0.5,
+    version=version,
     author='Matthew Garrett',
     author_email='mjg59@srcf.ucam.org',
     url='http://github.com/mjg59/python-broadlink',
